@@ -1,0 +1,184 @@
+body {
+	margin: 0px;
+}
+
+
+
+#encabezado {
+	background-image: url('../img/background.svg');
+	display: flex;
+	color: white;
+}
+
+#encabezado h1 {
+	line-height: 80px;
+	font-size: 34px;
+}
+
+#navegacion {
+	background-color: darkslategrey;
+	position: sticky;
+	top: 0;
+
+}
+
+#navegacion ul {
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navegacion ul li {
+	list-style: none;
+	border-right: 1px solid olive;
+	display: block;
+	text-align: center;
+}
+
+#navegacion ul li a {
+	text-decoration: none;
+	color: #f0f0f0;
+	font-weight: bold;
+	padding: 15px 18px;
+	display: flex;
+	text-align: center;
+}
+
+#navegacion ul li a:hover {
+	color: #8fbc8f;
+	background-color: #f0f0f0;
+}
+
+.active {
+	color: #f0f0f0;
+	background-color: #8fbc8f;
+}
+
+
+#piedepagina {
+	text-align: center;
+	color: #f0f0f0;
+	background-color: #333;
+	padding: 20px;
+}
+
+#piedepagina a {
+	text-decoration: none;
+	color: #f0f0f0;
+}
+#piedepagina i {
+	margin-top: 16px;
+	margin-left: 12px;
+	font-size: 24px;
+}
+
+
+@media (max-width: 780px) {
+	#navegacion ul {
+		display: block;
+	}
+
+	#navegacion ul li a {
+		display: block;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	#navegacion {
+		position: relative;
+
+	}
+
+	#contacto {
+		margin-left: 0px;
+	}
+
+	article {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
+
+#cuerpo {
+	text-align: center;
+}
+
+#cuerpo p {
+	margin: 10px;
+	font-size: 18px;
+}
+
+#inicio, #recursos, #noticias, #somos, #eventos, #contactos {
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+#inicio {
+	padding-top: 50px; 
+}
+
+#somos, #eventos, #contactos {
+	color: #f0f0f0;
+	background-color: #8fbc8f;
+}
+
+#contactos {
+	margin-bottom: 0px;
+}
+
+#contacto{
+	width: 50%;
+ 	margin-left: 25%;	
+ 	display: table;
+}
+
+.caja-texto{
+ width:250px;
+ border-radius: 5px;
+ height: 25px;
+ padding-left: 5px;
+}
+.label-texto{
+ color: brown;
+ padding-top:15px;
+}
+.text-area{
+ width:250px;
+ border-radius: 5px;
+ height: 25px;
+ padding-left: 5px;
+ height: 150px;
+}
+.boton{
+ border-radius: 5px;
+ background-color: darkslategrey;
+ color: white;
+ height: 35px;
+ width: 120px;
+}
+.boton:hover{
+ border-radius: 5px;
+ background-color:darkolivegreen;
+ color:yellow;
+ height: 35px;
+ width: 120px;
+}
+
+
+article {
+	border: 2px solid #333;
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+
+img {
+	margin-top: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
