@@ -130,11 +130,10 @@ body {
 }
 
 #contacto{
-	width: 50%;
- 	margin-left: 25%;	
- 	display: table;
+	width: 100%;
+ 	display: block;
+ 	text-align: center;
 }
-
 .caja-texto{
  width:250px;
  border-radius: 5px;
